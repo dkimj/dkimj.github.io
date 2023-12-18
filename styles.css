@@ -1,3 +1,50 @@
 body {
-    background: aqua;
+    padding: 0;
+    margin: 0;
+}
+main {
+    padding: 0;
+    margin: 0;
+}
+.page1 {
+    margin: 0;
+    background: blanchedalmond;
+    height: 800px;
+    display: flex;
+    justify-content:center ;
+    align-items: center; 
+    flex-direction: column;
+}
+.page2 {
+    height: 100vh;
+}
+h1 {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: 72px;
+    color: #181717;
+}
+
+h2 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    color: #181717;
+}
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #b9b9b9;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #727272;
+    border-radius: 8px;
+    border: 2px #b9b9b9 solid;
 }
