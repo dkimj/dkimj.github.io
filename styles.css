@@ -9,20 +9,20 @@ main {
 .page1 {
     margin: 0;
     background: blanchedalmond;
-    height: 800px;
+    height: max(70vh, 400px);
     display: flex;
     justify-content:center ;
-    align-items: center; 
+    align-items: center;
     flex-direction: column;
 }
 .page2 {
     height: 100vh;
 }
 h1 {
-    margin: 20px;
+    margin: 1.25rem;
     font-family: Arial, sans-serif;
     font-weight: 600;
-    font-size: 72px;
+    font-size: 5rem;
     color: #181717;
 }
 
@@ -30,13 +30,13 @@ h2 {
     margin: 0;
     font-family: Arial, sans-serif;
     font-weight: 500;
-    font-size: 42px;
+    font-size: 2.5rem;
     color: #181717;
 }
 
 
 body::-webkit-scrollbar {
-    width: 10px;
+    width: 0.625rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -45,6 +45,6 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
     background-color: #727272;
-    border-radius: 8px;
-    border: 2px #b9b9b9 solid;
+    border-radius: 0.5rem;
+    border: 0.125rem #b9b9b9 solid;
 }
