@@ -17,6 +17,19 @@ main {
 }
 .page2 {
     height: 100vh;
+    color: black;
+    background: honeydew;
+}
+
+.page3 {
+    height: 100vh;
+    color:#181717;
+    background: lavender;
+}
+.page4 {
+    height: 300px;
+    color: #181717;
+    background: whitesmoke;
 }
 h1 {
     margin: 1.25rem;
@@ -47,4 +60,12 @@ body::-webkit-scrollbar-thumb {
     background-color: #727272;
     border-radius: 0.5rem;
     border: 0.125rem #b9b9b9 solid;
+}
+
+
+.title-container {
+    width: 100%; text-align: center;    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #181717; padding-top: 30px
 }
