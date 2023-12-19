@@ -27,9 +27,16 @@ main {
     background: lavender;
 }
 .page4 {
-    height: 300px;
+    height: 32px;
     color: #181717;
-    background: whitesmoke;
+    background: rgba(128, 127, 127, 0.85);
+
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    position: fixed;
+    bottom:0;
+    width: 100%;
 }
 h1 {
     margin: 1.25rem;
@@ -68,4 +75,18 @@ body::-webkit-scrollbar-thumb {
     font-weight: 500;
     font-size: 2rem;
     color: #181717; padding-top: 30px
+}
+
+
+.page4 button {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 0;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    width: 20rem;
+    text-align: center;
+    color: #f5f5ff;
+
 }
